@@ -1,12 +1,12 @@
 {
-  "name": "react-daisyui",
-  "version": "1.7.6",
+  "name": "withub-ui",
+  "version": "1.7.8",
   "description": "react-daisyui - DaisyUI components built with React 🌼",
-  "author": "daisyui",
+  "author": "daisyui(forked)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/daisyui/react-daisyui.git"
+    "url": "https://github.com/WitHubHQ/WitHub-UI.git"
   },
   "type": "module",
   "exports": {

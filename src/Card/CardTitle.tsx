@@ -8,11 +8,9 @@ export type CardTitleProps = React.HTMLAttributes<HTMLDivElement> &
   }
 
 const CardTitle = React.forwardRef<HTMLElement, CardTitleProps>(
-  ({ className, tag = 'div', ...props }, ref) => {
-    const Tag = tag
-
+  ({ className, ...props }) => {
     return (
-      <Tag {...props} className={twMerge('card-title', className)} ref={ref} />
+      <div {...props} className={twMerge('card-title', className)} />
     )
   }
 )
